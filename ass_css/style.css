@@ -1,0 +1,60 @@
+* {
+    margin: 02;
+}
+
+.main {
+    height: 100vh;
+}
+.navbar {
+    background: rgb(27, 129, 61);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.links {
+    display: flex;
+}
+.links li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(173, 20, 204);
+}
+
+.content {
+    display: flex;
+    height: 230px;
+    background-color: rgb(36, 185, 36);
+}
+/* .news {
+    flex: 0.9;
+ }  */
+
+.reactions {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 110, 255);
+    flex: 3;
+    justify-content: space-between;
+    margin-top: 3px;
+  
+  
+}
+
+.imagesdiv{
+    display: flex;
+    flex: 2;
+    background-color: blueviolet;
+    justify-content: right;
+    margin-right: 2px;
+}
+
+footer {
+    background-color: rgb(197, 120, 19);
+}
